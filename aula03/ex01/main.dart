@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: Align(
-          alignment: const Alignment(-0.4, -0.7), // Mantém a posição
+          alignment: const Alignment(-0.4, -0.7), 
           child: Container(
             width: 100,
             height: 100,
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Hi Mom! 👋',
                   style: TextStyle(
-                    color: Colors.black, // Cor do texto alterada para preto
+                    color: Colors.black, 
                   ),
                 ),
               ],
